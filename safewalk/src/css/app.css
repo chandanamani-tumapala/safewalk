@@ -1,0 +1,187 @@
+@import url("@fortawesome/fontawesome-svg-core/styles.css");
+
+
+#root 
+{
+  height: 100%;
+  margin: 0px;
+  width: 100%;
+  /* background-color: white; */
+}
+body {
+    background-color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signin-container { /* Change container class name */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.signin-image-container, /* Change image-container class name */
+.signin-formbox { /* Change formbox class name */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-image-container { /* Change image-container class name */
+    /* background: url('6310507.jpg') center/cover no-repeat; */
+    padding: 40px;
+}
+
+.signin-formbox { /* Change formbox class name */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    flex-direction: column;
+}
+
+.signin-formbox h1 { /* Change formbox h1 class name */
+    font-size: 37px;
+    margin-bottom: 60px;
+    color: #027cfe;
+    position: relative;
+    text-align: center;
+    line-height: 1;
+}
+.signin-formbox h1::after {
+    content: '';
+    width: 100px;
+    height: 6px;
+    border-radius: 3px;
+    background: #027cfe;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.signin-input_feild { /* Change input_feild class name */
+    background: #eaeaea;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    padding: 17px 15px;
+    box-sizing: border-box;
+}
+
+.signin-input_feild .icons {
+    margin-left: 15px;
+}
+
+form p a {
+    font-size: 15px;
+    color:#027cfe;
+}
+
+.signin-btn button {
+    flex-basis: 50%;
+    background:  #027cfe;
+    height: 40px;
+    width: 100%;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: #fff;
+    font-size: 16px;
+}
+
+.signin-btn button:hover {
+    background: #0258b5;
+}
+
+.signin-input_grp {
+    height: auto;
+}
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formbox {
+    width: 90%;
+    max-width: 400px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.formbox h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #027cfe;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.input_feild {
+    background: #eaeaea;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input_feild input, .input_feild select {
+    width: 100%;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    padding: 17px 15px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.input_feild .icons {
+    margin-left: 15px;
+}
+
+.btn button {
+    background:  #027cfe;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn button:hover {
+    background: #0258b5;
+}
+
+.input_grp {
+    height: auto;
+}
+
+
+
+
+
